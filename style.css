@@ -1,0 +1,113 @@
+body{
+ /* background-color: rgb(113, 106, 106); */ 
+  font-family: 'Poppins', sans-serif;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+/* 1st section design start  */
+.main-section{
+display: flex; 
+}
+.section_title{
+font size: 4rem;
+}
+.left-side{
+margin-left: 4rem; margin-top: 6rem;
+}
+.section_title{
+font-size: 2rem;
+}
+.sub-title{
+font-size: 1.4rem;
+}
+.left-side p{
+width: 600px;
+}
+.right-sides{
+margin-left: 100px;
+
+}
+.right-side {
+width: 80%;
+margin-top: 80px;
+margin-left: 100px;
+}
+.btn-style{
+text-decoration: none;
+color: white;
+background-image: linear-gradient(to right, #6d47db, #ff418c);
+font-size: 1.2rem;
+padding: 8px 30px;
+border-radius: 8px;
+} 
+/* 1st section design end*/
+  
+/* second section start */
+.second-main-section{
+  display: flex;
+  margin-top: 4rem;
+}
+.second-left-side{
+width: 80%;
+margin-left: 100px;
+}
+.second-right-side{
+  width: 50%;
+  margin-top: 3rem;
+}
+.second-right-side p{
+  width: 600px;
+  color: rgba(6, 0, 0, o.626);
+  text-align: justify;
+}
+.section-title{
+  font-size: 2rem;
+}
+
+/* .experience section start */
+.experiences {
+margin: 100px 0 100px 0;
+}
+.experiences-section-title {
+   font-size: 3.5rem;  
+}
+.experience-main-div {
+margin-top: 50px; 
+display: flex;
+}
+.left-side-experience{
+margin: 0 40px 0 80px;
+padding: 30px 50px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-left: 7px solid #ff418c;
+} 
+.right-side-experience { 
+margin: 0 80px 0 40px;
+padding: 50px 30px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-left: 7px solid #6d47db;
+
+}
+.experience-title {
+font-size: 2.5rem;
+}
+.experience-sub-title {
+font-size: 1.4rem; 
+color: orange;
+}
+.experience-p{
+color: rgba(9, 1, 1, 0.734);
+}
+/* experience section end */
+  
+/* footer section start */
+.footer {
+  margin: 50px 0 30px 0;
+}
+.footer p {
+  text-align: center;
+  color: rgba(9, 1, 1, 0.734);
+}
+/* footer section end */
